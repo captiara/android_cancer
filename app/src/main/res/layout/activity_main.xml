@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/et_patient"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_height="@dimen/_33sdp"
+        android:text="PATIENT"
+        android:textColor="#FFFF"
+        android:background="@drawable/botton_roundedd"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_360sdp"/>
+    <Button
+        android:id="@+id/et_dokter"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_marginLeft="@dimen/_160sdp"
+        android:layout_height="@dimen/_33sdp"
+        android:text="DOCTOR"
+        android:textColor="#FFFF"
+        android:background="@drawable/botton_roundedd"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_360sdp"/>
+    <ImageView
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_220sdp"
+        android:layout_marginTop="@dimen/_114sdp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher_foreground"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_120sdp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        android:layout_height="wrap_content"
+        android:text="Welcome !"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginLeft="@dimen/_40sdp"
+
+        android:textSize="@dimen/_11sdp"
+        android:layout_height="wrap_content"
+        android:text="Dont forget to login or Sign Up to continue our app"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_marginTop="@dimen/_330sdp"
+    android:layout_marginLeft="@dimen/_130sdp"
+    android:textSize="@dimen/_12sdp"
+    android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+    android:text="Login as "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_400sdp"
+        android:layout_marginLeft="@dimen/_140sdp"
+        android:textStyle="italic"
+        android:textSize="@dimen/_12sdp"
+        android:layout_height="wrap_content"
+        android:text="or "/>
+    <Button
+        android:layout_width="@dimen/_250sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_height="@dimen/_33sdp"
+        android:text="Guest Mode"
+        android:textColor="#FFFF"
+        android:background="@drawable/botton_roundedab7"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_420sdp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="@dimen/_59sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/ribbon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_140sdp"
+        android:layout_marginLeft="@dimen/_34sdp"
+        android:text="Login"
+        android:textSize="@dimen/_33sdp"
+        android:fontFamily="sans-serif-thin"/>
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_200sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email" />
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_250sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password" />
+    <Button
+        android:layout_width="@dimen/_220sdp"
+        android:layout_marginLeft="@dimen/_46sdp"
+        android:layout_height="@dimen/_43sdp"
+        android:text="SIGN IN"
+        android:textColor="#FFFF"
+        android:background="@drawable/botton_roundedd"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_350sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_400sdp"
+        android:layout_centerHorizontal="true"
+        android:text="SIGN UP"/>
+
+</RelativeLayout>
